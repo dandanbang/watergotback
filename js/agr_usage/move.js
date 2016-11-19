@@ -8,5 +8,5 @@ window.onload = function() {
         tractor4 = document.getElementById("tractor4");
 
     // TweenLite.to([red, yellow, green], 1, {scale:0.2, opacity:0.3});
-    TweenLite.from([house, tractor1, tractor2, tractor3, tractor4], 1, {left:"-=200px"});
+    TweenLite.to([house, tractor1, tractor2, tractor3, tractor4], 1.75, {left:"+=450px"});
 }
