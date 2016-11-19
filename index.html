@@ -99,11 +99,14 @@
                       <h1 class="title"> {{reservoir.station}}</h1>
                       <h5 class="project">{{reservoir.project}}</h5>
                       <p>
-                        Storage: {{formatCapacity(history[now].reservoirs[reservoir.id])}}
-                        <span class="acre-feet">acre-feet</span><br>
-                        Capacity: {{formatCapacity(reservoir.capacity)}}
-                        <span class="acre-feet">acre-feet</span><br>
-                        Water Source: {{reservoir.stream}}
+                        <P id="lake_reservoir">
+                          Storage: <span class="black-text bold">{{formatCapacity(history[now].reservoirs[reservoir.id])}}</span>
+                          <span class="acre-feet">acre-feet</span><br>
+                        </P>
+                        <p id="lake_capacity">
+                          Capacity: {{formatCapacity(reservoir.capacity)}}
+                          <span class="acre-feet">acre-feet</span><br>
+                        </p>
                       </p>
                       <reservoir-detail reservoir="reservoir" year="year" month="month">
                       </reservoir-detail>
@@ -116,6 +119,7 @@
                       shapefile="shapefile">
                     </water-map>
                   </div>
+                  <p><cite>California Department of Water Resources</cite></p>
                   <p><cite>Adapted from opensource creation by <a href="https://twitter.com/vicapow" class="grey-text">Victor Powell</a></cite></p>
                 </div>
             </section>
