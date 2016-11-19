@@ -35,7 +35,7 @@ h3 {
 }
 
 #bridge {
-    height: 200px;
+    height: 250px;
 }
 
 .data-well {
@@ -74,26 +74,30 @@ h3 {
  
 }
 .cloud {
-    margin-top: -20%;
+    margin-top: -30%;
 }
 .building3 {
     width: 120px;
     height: auto;
     position: absolute;  
-    left: 10%; 
+    left:210px;
     bottom: 150px;
 }
 
 .building4 {
     width: 7%;
     height: auto;
-    position: absolute;   
+    position: absolute;
+    left: 593px;
+    bottom: 150px;  
 }
 
 .building5 {
     width: 10%;
     height: auto;
-    position: absolute;   
+    position: absolute;
+    bottom: 150px;
+    left: 950px; 
 }
 
 .bridge1{
@@ -101,14 +105,14 @@ h3 {
     height: auto;
     bottom: 150px;
     position: absolute;
-    left: 250px; 
+    left: 335px;
     z-index: 0;
 }
 
 .water_bridge1 {
     width: 20%;
     height: auto;
-    left: 250px; 
+    left: 334px; 
     bottom: 149px;
     position: absolute; 
     z-index: 2;
@@ -120,17 +124,16 @@ h3 {
     height: auto;
     bottom: 150px;
     position: absolute;
-    left: 250px; 
+    left: 690px;
     z-index: 0;
 }
 
 .water_bridge2 {
     width: 20%;
     height: auto;
-    left: 250px; 
     bottom: 149px;
-    position: absolute; 
-    z-index: 2;
+    position: absolute;
+    left: 689px;
     opacity: 0.9;
 }
 
