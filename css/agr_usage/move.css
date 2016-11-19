@@ -1,0 +1,39 @@
+#demo {
+    width: 692px;
+    /*height: 60px;*/
+    /*background-color: #333;*/
+    margin-left: 500px;
+    padding: 8px;
+}
+#logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(img/logo_black.jpg) no-repeat;
+}
+.box {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    color: white;
+    /*float:left;*/
+}
+
+.box_house {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    /*float:left;*/
+}
+
+.box img {
+  margin-bottom: 50px;
+}
+
+.tractor_col {
+  display: inline;
+}
