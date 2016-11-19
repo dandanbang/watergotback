@@ -48,7 +48,7 @@ h3 {
     text-indent: -99999px;
     width: 120px;
     height: 100px;
-    margin: 0 40px 100px 120px;
+    margin: 0 40px 0px 120px;
     background: url("../images/well1blue.svg") bottom no-repeat;
 }
 
@@ -56,7 +56,7 @@ h3 {
   display: block;
   width: 120px;
   height: 100px;
-  margin: 0 40px 100px 120px;
+  margin: 0 40px 0px 120px;
   background: url("../images/well1blue2.svg") bottom no-repeat;
   text-indent: -99999px;
 }
@@ -66,7 +66,7 @@ h3 {
   text-indent: -99999px;
   width: 120px;
   height: 100px;
-  margin: 0 40px 40px 40px;
+  margin: 0 40px 0px 40px;
   background: url("../images/groundwater.svg") bottom no-repeat;
 }
 
@@ -75,7 +75,7 @@ h3 {
   text-indent: -99999px;
   width: 120px;
   height: 100px;
-  margin: 0 40px 40px 40px;
+  margin: 0 40px 0px 40px;
   background: url("../images/groundwaterblue.svg") bottom no-repeat;
 }
 
@@ -84,7 +84,7 @@ h3 {
   text-indent: -99999px;
   width: 120px;
   height: 100px;
-  margin: 0 40px 40px 40px;
+  margin: 0 40px 0px 40px;
   background: url("../images/meter.svg") bottom no-repeat;
 }
 
@@ -93,7 +93,7 @@ h3 {
   text-indent: -99999px;
   width: 120px;
   height: 100px;
-  margin: 0 40px 40px 40px;
+  margin: 0 40px 0px 40px;
   background: url("../images/meterblue.svg") bottom no-repeat;
 }
 
@@ -102,7 +102,7 @@ h3 {
   text-indent: -99999px;
   width: 120px;
   height: 100px;
-  margin: 0 40px 40px 40px;
+  margin: 0 40px 0px 40px;
   background: url("../images/quality.svg") bottom no-repeat;
 }
 
@@ -111,7 +111,7 @@ h3 {
   text-indent: -99999px;
   width: 120px;
   height: 100px;
-  margin: 0 40px 40px 40px;
+  margin: 0 40px 0px 40px;
   background: url("../images/qualityblue.svg") bottom no-repeat;
 }
 
@@ -120,7 +120,7 @@ h3 {
   text-indent: -99999px;
   width: 120px;
   height: 100px;
-  margin: 0 40px 40px 40px;
+  margin: 0 40px 0px 40px;
   background: url("../images/model.svg") bottom no-repeat;
 }
 
@@ -129,7 +129,7 @@ h3 {
   text-indent: -99999px;
   width: 120px;
   height: 100px;
-  margin: 0 40px 40px 40px;
+  margin: 0 40px 0px 40px;
   background: url("../images/modelblue.svg") bottom no-repeat;
 }
 .cloud {

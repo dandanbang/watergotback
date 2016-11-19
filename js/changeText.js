@@ -1,7 +1,7 @@
 $('.data-well').hover(
     function() {
         $('#without').text("Water managers can't support the state’s economy.");
-        $('#with').text("Sustainable management of groundwater to support economy");
+        $('#with').text("Sustainable management of groundwater");
     }
 );
 
@@ -29,7 +29,7 @@ $('.data-quality').hover(
 
 $('.data-model').hover(
     function() {
-        $('#without').text("Incohesion in water supply and lack of knowledge about the infrastructure");
+        $('#without').text("Incohesion in water supply and lack of knowledge about infrastructure");
         $('#with').text("Maintain healthier aquifers that can continue to supply water.");
     }
 );
