@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <!-- water storage material -->
+      <script src="js/water_storage.min.js?t=1395793874049" charset="utf-8"></script>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <title>Into the Drought: California's Shrinking Reservoirs</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/water_storage.css?t=1395793874048" rel="stylesheet">
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +23,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <!--CDN link for  TweenMax-->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-        <script src="js/drop.js"></script>
+        <!-- <script src="js/drop.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
         <script type="text/javascript" src="js/agr_usage/move.js"></script>
         <link rel="stylesheet" type="text/css" href="css/agr_usage/move.css">
@@ -68,7 +74,41 @@
             </section>
             <section class="grey lighten-4 ss-style-roundedsplit">
                 <h2>Water Storage Is Also Decreasing..</h2>
-                <section>insert map</section>
+                <!-- <section>insert map</section> -->
+                <div ng-app="myApp" ng-controller="MainCtrl" ng-clock>
+                  <loading-dialog ng-show="!loaded"></loading-dialog>
+                  <div class="map-container" ng-style="{opacity: loaded ? 1 : 0 }">
+                    <p>
+
+                      <div class="play-btn" ng-model="playing" ng-click="playButtonClicked()">
+                        {{ playing ? 'pause' : 'play' }}
+                      </div>
+                      {{ year }} - {{ months[month] }}
+                      <small style="float:right">Data is current as of April 11th, 2015</small>
+                    </p>
+                    <scale-slider domain="domain" now="sliderPosition"></scale-slider>
+                    <div class="detail">
+                      <h1 class="title"> {{reservoir.station}}</h1>
+                      <h5 class="project">{{reservoir.project}}</h5>
+                      <p>
+                        Storage: {{formatCapacity(history[now].reservoirs[reservoir.id])}}
+                        <span class="acre-feet">acre-feet</span><br>
+                        Capacity: {{formatCapacity(reservoir.capacity)}}
+                        <span class="acre-feet">acre-feet</span><br>
+                        Water Source: {{reservoir.stream}}
+                      </p>
+                      <reservoir-detail reservoir="reservoir" year="year" month="month">
+                      </reservoir-detail>
+                    </div>
+                    <water-map
+                      reservoirs="reservoirs"
+                      history="history"
+                      now="now"
+                      selected-reservoir="reservoir"
+                      shapefile="shapefile">
+                    </water-map>
+                  </div>
+                </div>
 
             </section>
             <section class="light-green ss-style-zigzag">
