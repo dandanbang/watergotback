@@ -39,39 +39,93 @@ h3 {
 }
 
 .data-well {
-    width: 70px;
-    height: auto;
-    margin: 0 40px;
+    display: block;
+    text-indent: -99999px;
+    width: 120px;
+    height: 100px;
+    margin: 0 40px 100px 120px;
+    background: url("../images/well1blue.svg") bottom no-repeat;
+}
+
+.data-well:hover {
+  display: block;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 100px 120px;
+  background: url("../images/well1blue2.svg") bottom no-repeat;
+  text-indent: -99999px;
 }
 
 .data-groundwater {
-    width: 70px;
-    height: auto;
-        margin: 0 40px;
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 40px 40px;
+  background: url("../images/groundwater.svg") bottom no-repeat;
+}
 
+.data-groundwater:hover {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 40px 40px;
+  background: url("../images/groundwaterblue.svg") bottom no-repeat;
 }
 
 .data-meter {
-    width: 50px;
-    height: auto;
-        margin: 0 40px;
-
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 40px 40px;
+  background: url("../images/meter.svg") bottom no-repeat;
 }
 
-.data-quality{
-    width: 60px;
-    height: auto;
-        margin: 0 40px;
-
- 
+.data-meter:hover {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 40px 40px;
+  background: url("../images/meterblue.svg") bottom no-repeat;
 }
 
-.data-model{
-    width: 100px;
-    height: auto;
-        margin: 0 40px;
+.data-quality {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 40px 40px;
+  background: url("../images/quality.svg") bottom no-repeat;
+}
 
- 
+.data-quality:hover {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 40px 40px;
+  background: url("../images/qualityblue.svg") bottom no-repeat;
+}
+
+.data-model {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 40px 40px;
+  background: url("../images/model.svg") bottom no-repeat;
+}
+
+.data-model:hover {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 40px 40px;
+  background: url("../images/modelblue.svg") bottom no-repeat;
 }
 .cloud {
     margin-top: -20%;
@@ -79,21 +133,21 @@ h3 {
 .building3 {
     width: 120px;
     height: auto;
-    position: absolute;  
-    left: 10%; 
+    position: absolute;
+    left: 10%;
     bottom: 150px;
 }
 
 .building4 {
     width: 7%;
     height: auto;
-    position: absolute;   
+    position: absolute;
 }
 
 .building5 {
     width: 10%;
     height: auto;
-    position: absolute;   
+    position: absolute;
 }
 
 .bridge1{
@@ -101,16 +155,16 @@ h3 {
     height: auto;
     bottom: 150px;
     position: absolute;
-    left: 250px; 
+    left: 250px;
     z-index: 0;
 }
 
 .water_bridge1 {
     width: 20%;
     height: auto;
-    left: 250px; 
+    left: 250px;
     bottom: 149px;
-    position: absolute; 
+    position: absolute;
     z-index: 2;
     opacity: 0.9;
 }
@@ -120,16 +174,16 @@ h3 {
     height: auto;
     bottom: 150px;
     position: absolute;
-    left: 250px; 
+    left: 250px;
     z-index: 0;
 }
 
 .water_bridge2 {
     width: 20%;
     height: auto;
-    left: 250px; 
+    left: 250px;
     bottom: 149px;
-    position: absolute; 
+    position: absolute;
     z-index: 2;
     opacity: 0.9;
 }
