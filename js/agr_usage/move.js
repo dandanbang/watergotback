@@ -49,6 +49,13 @@ window.onload = function() {
                 // .addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
                 .addTo(controller);
 
+    var scene2 = new ScrollMagic.Scene({
+                    triggerElement: "#bridge"
+                })
+                .setTween(".bridge-a", 1, {top:"+=25px", delay:1}) // trigger a TweenMax.to tween
+                // .addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
+                .addTo(controller);
+
 // add multiple tweens, wrapped in a timeline.
     // var timeline = new TimelineMax();
     // var tween1 = TweenMax.to("#house", 1.75, {left:"+=450px"});
