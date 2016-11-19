@@ -2,8 +2,9 @@
     /*width: 692px;*/
     /*height: 60px;*/
     /*background-color: #333;*/
-    margin-left: -550px;
+    margin-left: -100px;
     margin-top: 100px;
+    margin-right: -200px;
     /*padding: 8px;*/
 }
 /*#logo {
@@ -33,3 +34,19 @@
 #tractor1, #tractor2, #tractor3, #tractor4 {
   margin-top: 30px;
 }
+
+/*#tractor1{
+    left: 1800px;
+}
+
+#tractor2{
+    left: 1350px;
+}
+
+#tractor3{
+    left: 900px;
+}
+
+#tractor4{
+    left: 450px;
+}*/

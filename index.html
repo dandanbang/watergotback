@@ -18,18 +18,6 @@
         <link rel="stylesheet" type="text/css" href="css/component.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         <link rel="stylesheet" type="text/css" href="css/animation.css" />
-
-
-
-            <!-- Load JS Library -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <!--CDN link for  TweenMax-->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-        <!-- <script src="js/drop.js"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-        <script type="text/javascript" src="js/agr_usage/move.js"></script>
         <link rel="stylesheet" type="text/css" href="css/agr_usage/move.css">
 
     </head>
@@ -46,7 +34,11 @@
 
             <section class="col-3 white">
                 <h2>But...How bad is it?</h2>
-                <section>insert map</section>
+                <div >
+                  <img id="drought">
+                  <h4 id="year">2011</h4>
+                </div>
+
             </section>
 
             <section class="color">
@@ -123,6 +115,7 @@
                   <p><cite>Adapted from opensource creation by <a href="https://twitter.com/vicapow" class="grey-text">Victor Powell</a></cite></p>
                 </div>
             </section>
+
             <section class="light-green ss-style-zigzag">
                 <div class="column">
                     <div style="margin-top: -60px;">
@@ -131,11 +124,11 @@
                       <p><cite>Public Policy Institute of California "Water Use In California" July 2014</cite></p>
                     </div>
                     <div id="demo">
-                      <div class="box" id="house"><img src="images/agr_usage/house_icon.svg"></div>
-                      <div class="box" id="tractor1"><img src="images/agr_usage/tractor_icon.svg"></div>
-                      <div class="box" id="tractor2"><img src="images/agr_usage/tractor_icon.svg"></div>
-                      <div class="box" id="tractor3"><img src="images/agr_usage/tractor_icon.svg"></div>
                       <div class="box" id="tractor4"><img src="images/agr_usage/tractor_icon.svg"></div>
+                      <div class="box" id="tractor3"><img src="images/agr_usage/tractor_icon.svg"></div>
+                      <div class="box" id="tractor2"><img src="images/agr_usage/tractor_icon.svg"></div>
+                      <div class="box" id="tractor1"><img src="images/agr_usage/tractor_icon.svg"></div>
+                      <div class="box" id="house"><img src="images/agr_usage/house_icon.svg"></div>
                     </div>
                     <p></p>
                 </div>
@@ -152,6 +145,21 @@
             <section class="color">
             </section>
         </div>
+
+        <!-- Load JS Library -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        <!--CDN link for  TweenMax-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+        <!-- <script src="js/drop.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+        <script type="text/javascript" src="js/agr_usage/move.js"></script>
+        <script type="text/javascript" src="js/drought_animate.js"></script>
+
 
     </body>
 </html>
