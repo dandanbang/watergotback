@@ -23,10 +23,13 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
         <!--CDN link for  TweenMax-->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
         <!-- <script src="js/drop.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
         <script type="text/javascript" src="js/agr_usage/move.js"></script>
         <script type="text/javascript" src="js/drought_animate.js"></script>
 
@@ -41,7 +44,7 @@
             <section class="color">
                 <h2>We all know about the drought in California</h2>
             </section>
-            <div class="lighten-4 wave-bottom" style="width: 1450px;"></div>
+            <div class="lighten-4 wave-bottom" style="width: 100%;"></div>
 
 
             <section class="col-3 white">
@@ -103,11 +106,14 @@
                       <h1 class="title"> {{reservoir.station}}</h1>
                       <h5 class="project">{{reservoir.project}}</h5>
                       <p>
-                        Storage: {{formatCapacity(history[now].reservoirs[reservoir.id])}}
-                        <span class="acre-feet">acre-feet</span><br>
-                        Capacity: {{formatCapacity(reservoir.capacity)}}
-                        <span class="acre-feet">acre-feet</span><br>
-                        Water Source: {{reservoir.stream}}
+                        <P id="lake_reservoir">
+                          Storage: <span class="black-text bold">{{formatCapacity(history[now].reservoirs[reservoir.id])}}</span>
+                          <span class="acre-feet">acre-feet</span><br>
+                        </P>
+                        <p id="lake_capacity">
+                          Capacity: {{formatCapacity(reservoir.capacity)}}
+                          <span class="acre-feet">acre-feet</span><br>
+                        </p>
                       </p>
                       <reservoir-detail reservoir="reservoir" year="year" month="month">
                       </reservoir-detail>
@@ -120,24 +126,24 @@
                       shapefile="shapefile">
                     </water-map>
                   </div>
+                  <p><cite>California Department of Water Resources</cite></p>
+                  <p><cite>Adapted from opensource creation by <a href="https://twitter.com/vicapow" class="grey-text">Victor Powell</a></cite></p>
                 </div>
             </section>
 
             <section class="light-green ss-style-zigzag">
                 <div class="column">
-                    <h2 class="white-text">We should be worried about ground water</h2>
-                    <h2 class="white-text">Agricultural usage is 80% of the Total Usage</h2>
+                    <div style="margin-top: -60px;">
+                      <h2 class="white-text">We should be worried about ground water</h2>
+                      <h2 class="white-text">Agricultural usage is 80% of the Total Usage</h2>
+                      <p><cite>Public Policy Institute of California "Water Use In California" July 2014</cite></p>
+                    </div>
                     <div id="demo">
-                    <div>
-                        <div class="box_house" id="house"><img src="images/agr_usage/house_icon.svg"></div>
-                        <!-- <div class="box_house" id="house2"><img src="house_icon.svg"></div> -->
-                        </div>
-                        <div class="tractor_col">
-                            <div class="box" id="tractor1"><img src="images/agr_usage/tractor_icon.svg"></div>
-                            <div class="box" id="tractor2"><img src="images/agr_usage/tractor_icon.svg"></div>
-                            <div class="box" id="tractor3"><img src="images/agr_usage/tractor_icon.svg"></div>
-                            <div class="box" id="tractor4"><img src="images/agr_usage/tractor_icon.svg"></div>
-                        </div>
+                      <div class="box" id="tractor4"><img src="images/agr_usage/tractor_icon.svg"></div>
+                      <div class="box" id="tractor3"><img src="images/agr_usage/tractor_icon.svg"></div>
+                      <div class="box" id="tractor2"><img src="images/agr_usage/tractor_icon.svg"></div>
+                      <div class="box" id="tractor1"><img src="images/agr_usage/tractor_icon.svg"></div>
+                      <div class="box" id="house"><img src="images/agr_usage/house_icon.svg"></div>
                     </div>
                     <p></p>
                 </div>
@@ -150,7 +156,7 @@
             </section>
             <section class="grey lighten-4">
             </section>
-              <div class="grey lighten-4 wave-top" style="width: 1450px;"></div>
+              <div class="grey lighten-4 wave-top" style="width: 100%;"></div>
             <section class="color">
             </section>
         </div>
