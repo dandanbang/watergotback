@@ -22,123 +22,75 @@ h3 {
     font-family: 'Permanent Marker', cursive;
 }
 
+#calltoaction {
+    height: 700px;
+    background-image: 
+}
 
-.scale1 {
+#bridge {
+    height: 200px;
+}
+
+
+.cloud {
+    margin-top: -20%;
+}
+.building3 {
+    width: 120px;
+    height: auto;
+    position: absolute;  
+    left: 10%; 
+    bottom: 150px;
+}
+
+.building4 {
     width: 7%;
     height: auto;
-    position: absolute;
+    position: absolute;   
 }
 
-.scale2 {
-    width: 19%;
+.building5 {
+    width: 10%;
     height: auto;
-    position: absolute;
-
+    position: absolute;   
 }
 
-.scale3 {
-    width: 28%;
+.bridge1{
+    width: 20%;
     height: auto;
+    bottom: 150px;
     position: absolute;
-
+    left: 250px; 
+    z-index: 0;
 }
 
-.scale4 {
-    width: 7%;
+.water_bridge1 {
+    width: 20%;
     height: auto;
-    position: absolute;
+    left: 250px; 
+    bottom: 149px;
+    position: absolute; 
+    z-index: 2;
+    opacity: 0.9;
 }
 
-.scale5 {
-    width: 13%;
+.bridge2{
+    width: 20%;
     height: auto;
+    bottom: 150px;
     position: absolute;
+    left: 250px; 
+    z-index: 0;
 }
 
-.scale6 {
-    width: 5%;
+.water_bridge2 {
+    width: 20%;
     height: auto;
-    position: absolute;
-}
-
-.scale7 {
-    width: 2%;
-    height: auto;
-    position: absolute;
-}
-
-
-.school0{
-    top: 80px;
-    left: 27%;
-}
-
-.school1{
-    top: 60px;
-    left: 40%;
-}
-
-.schoolclock{
-    top: 200px;
-    left: 20%;
-}
-
-.schoolhouse{
-    top: 120px;
-    left: 35%;
-}
-
-.schoolbus{
-    top: 190px;
-    left: 50%;
-}
-
-.school5{
-    top: 78px;
-    left: 68%;
-}
-
-.school6{
-    top: 70px;
-    left: 56%;
-}
-
-.school7{
-    top: 115px;
-    left: 71%;
-}
-.baby1{
-    left: 10%;
-}
-
-.baby3{
-    left: 31%;
-}
-
-.baby4{
-    left: 43%;
-}
-
-.baby5{
-    left: 58%;
-}
-
-.baby6{
-    left: 83%;
-}
-
-.babycloud1 {
-    top: 140px;
-    left: 15%;
-}
-
-.babycloud2 {
-    top: 160px;
-    left: 70%;
-}
-
-#school {
-    opacity: 0;
+    left: 250px; 
+    bottom: 149px;
+    position: absolute; 
+    z-index: 2;
+    opacity: 0.9;
 }
 
 
