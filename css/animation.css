@@ -23,7 +23,7 @@
 100%  {background-position: 1930px 0px;}
 }
 
-.deep-sea .wave{ animation: dropWave 2.5s infinite linear; }
+.deep-sea .wave{ animation: dropWave 6s infinite linear; }
 
 /*STATS*/
 
