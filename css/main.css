@@ -24,7 +24,9 @@ h3 {
     margin-top: 2em;
 }
 #drought-monitor {
-    height: 600px;
+    height: 550px;
+    margin-top: -50px;
+
 }
 #calltoaction {
     height: 700px;
@@ -179,7 +181,7 @@ h3 {
 }
 
 .wave-bottom {
-  background: url("images/bg-wave-large-flip.png") repeat;
+  background: url("images/bg-wave-large.png") repeat;
   height: 144px;
   animation: dropWave 2.5s infinite linear;
 }
