@@ -1,7 +1,7 @@
 $('.data-well').hover(
     function() {
         $('#without').text("Water managers can't support the state’s economy.");
-        $('#with').text("Sustainably management of groundwater for their direct use to support the state’s economy.");
+        $('#with').text("Sustainable management of groundwater to support economy");
     }
 );
 
@@ -23,7 +23,7 @@ $('.data-meter').hover(
 $('.data-quality').hover(
     function() {
         $('#without').text("Unable to identify contaimination sources.");
-        $('#with').text("Addresses or alleviate potential contamination problems before it becomes too costly to mitigate or leads to loss of groundwater supply.");
+        $('#with').text("Addresses or alleviate potential contamination problems.");
     }
 );
 
