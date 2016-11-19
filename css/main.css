@@ -17,21 +17,62 @@ nav {
 
 h3 {
     font-weight: bolder;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Permanent Marker', cursive;
+/*    text-transform: uppercase;
+*/  color: #252445;
+    font-family: 'Raleway', serif;
+    font-size: 1.3em;
 }
 
 #calltoaction {
     height: 700px;
-    background-image: 
+    background-color: white;
+    background-image: url("../images/city3.png");
+    background-size:100%;
+}
+
+#calltoaction p{
+    color: #252445;
 }
 
 #bridge {
     height: 200px;
 }
 
+.data-well {
+    width: 70px;
+    height: auto;
+    margin: 0 40px;
+}
 
+.data-groundwater {
+    width: 70px;
+    height: auto;
+        margin: 0 40px;
+
+}
+
+.data-meter {
+    width: 50px;
+    height: auto;
+        margin: 0 40px;
+
+}
+
+.data-quality{
+    width: 60px;
+    height: auto;
+        margin: 0 40px;
+
+ 
+}
+
+.data-model{
+    width: 100px;
+    height: auto;
+        margin: 0 40px;
+
+ 
+}
 .cloud {
     margin-top: -20%;
 }
