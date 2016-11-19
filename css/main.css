@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway');
+
+
+#main {
+    background-color: #40ccd3;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background-color: transparent;
+    box-shadow: none;
+    top:10px;
+}
+
+h3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.scale1 {
+    width: 7%;
+    height: auto;
+    position: absolute;
+}
+
+.scale2 {
+    width: 19%;
+    height: auto;
+    position: absolute;
+
+}
+
+.scale3 {
+    width: 28%;
+    height: auto;
+    position: absolute;
+
+}
+
+.scale4 {
+    width: 7%;
+    height: auto;
+    position: absolute;
+}
+
+.scale5 {
+    width: 13%;
+    height: auto;
+    position: absolute;
+}
+
+.scale6 {
+    width: 5%;
+    height: auto;
+    position: absolute;
+}
+
+.scale7 {
+    width: 2%;
+    height: auto;
+    position: absolute;
+}
+
+
+.school0{
+    top: 80px;
+    left: 27%;
+}
+
+.school1{
+    top: 60px;
+    left: 40%;
+}
+
+.schoolclock{
+    top: 200px;
+    left: 20%;
+}
+
+.schoolhouse{
+    top: 120px;
+    left: 35%;
+}
+
+.schoolbus{
+    top: 190px;
+    left: 50%;
+}
+
+.school5{
+    top: 78px;
+    left: 68%;
+}
+
+.school6{
+    top: 70px;
+    left: 56%;
+}
+
+.school7{
+    top: 115px;
+    left: 71%;
+}
+.baby1{
+    left: 10%;
+}
+
+.baby3{
+    left: 31%;
+}
+
+.baby4{
+    left: 43%;
+}
+
+.baby5{
+    left: 58%;
+}
+
+.baby6{
+    left: 83%;
+}
+
+.babycloud1 {
+    top: 140px;
+    left: 15%;
+}
+
+.babycloud2 {
+    top: 160px;
+    left: 70%;
+}
+
+#school {
+    opacity: 0;
+}
+
+
+.send-to-back {
+    position: relative;
+    z-index: 0;
+}
+
+.send-to-front {
+    position: absolute;
+    z-index: 2;
+}
+
+.home-content {
+    top:50%;
+
+}
+.btn-ghost {
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid white;
+    color: white;
+    height: 100%; 
+    line-height: 100%;
+    padding: 1rem 2rem
+}
+
+.btn-ghost:hover{
+    box-shadow: none;
+    background-color: white;
+    color: #212121;
+}
+
