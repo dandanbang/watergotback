@@ -275,7 +275,7 @@ svg#bigTriangleColor {
 	top: 100%;
 	width: 100%;
 	border-radius: 0 90px 0 0;
-} 
+}
 
 .ss-style-invertedrounded::after {
 	bottom: 0;
@@ -323,7 +323,7 @@ svg#bigTriangleColor {
 .ss-style-zigzag::after {
 	top: 100%;
 	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #3498db), color-stop(0.25, #2980b9));
-	background-image: 
+	background-image:
 		linear-gradient(135deg, #8bc34a 25%, transparent 25%),
 		linear-gradient(225deg, #8bc34a 25%, transparent 25%);
 	background-position: 50%;
@@ -358,7 +358,7 @@ svg#bigTriangleColor {
 	padding-top: 5em;
 }
 
-.ss-style-slit::before, 
+.ss-style-slit::before,
 .ss-style-slit::after {
 	width: 50.5%;
 	width: -webkit-calc(50% + 10px);
@@ -394,7 +394,7 @@ svg#bigTriangleColor {
 #trianglePath1 {
 	fill: #3498db;
 	stroke: #3498db;
-} 
+}
 
 #trianglePath2 {
 	fill: #2072a7;

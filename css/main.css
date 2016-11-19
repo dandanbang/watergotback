@@ -161,7 +161,7 @@ h3 {
     box-shadow: none;
     border: 1px solid white;
     color: white;
-    height: 100%; 
+    height: 100%;
     line-height: 100%;
     padding: 1rem 2rem
 }
@@ -172,3 +172,15 @@ h3 {
     color: #212121;
 }
 
+
+.wave-top {
+  background: url("images/bg-wave-large.png") repeat;
+  height: 120px;
+  animation: dropWave 2.5s infinite linear;
+}
+
+.wave-bottom {
+  background: url("images/bg-wave-large-flip.png") repeat;
+  height: 144px;
+  animation: dropWave 2.5s infinite linear;
+}
