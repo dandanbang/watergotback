@@ -51,17 +51,24 @@ h3 {
     height: 250px;
 }
 
+.fix-height {
+  height: 150px;
+}
+}
 .legend {
     font-family: "Open Sans", verdana, arial, sans-serif;
     font-size: 1.2rem
 }
 .data-well {
-    width: 70px;
-    height: auto;
-    margin: 0 40px;
+    display: block;
+    text-indent: -99999px;
+    width: 120px;
+    height: 100px;
+    margin: 0 40px 0px 90px;
+    background: url("../images/well1.svg") bottom no-repeat;
 }
 
-.center {
+/*.center {
     text-align: center;
     align-items: center;
 }
@@ -69,31 +76,87 @@ h3 {
 .data-groundwater {
     width: 70px;
     height: auto;
-        margin: 0 40px;
+        margin: 0 40px;*/
 
+.data-well:hover {
+  display: block;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 120px;
+  background: url("../images/well1blue2.svg") bottom no-repeat;
+  text-indent: -99999px;
+}
+
+.data-groundwater {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 40px;
+  background: url("../images/groundwater.svg") bottom no-repeat;
+}
+
+.data-groundwater:hover {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 40px;
+  background: url("../images/groundwaterblue.svg") bottom no-repeat;
 }
 
 .data-meter {
-    width: 50px;
-    height: auto;
-        margin: 0 40px;
-
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 40px;
+  background: url("../images/meter.svg") bottom no-repeat;
 }
 
-.data-quality{
-    width: 60px;
-    height: auto;
-        margin: 0 40px;
-
- 
+.data-meter:hover {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 40px;
+  background: url("../images/meterblue.svg") bottom no-repeat;
 }
 
-.data-model{
-    width: 100px;
-    height: auto;
-        margin: 0 40px;
+.data-quality {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 40px;
+  background: url("../images/quality.svg") bottom no-repeat;
+}
 
- 
+.data-quality:hover {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 40px;
+  background: url("../images/qualityblue.svg") bottom no-repeat;
+}
+
+.data-model {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 40px;
+  background: url("../images/model.svg") bottom no-repeat;
+}
+
+.data-model:hover {
+  display: block;
+  text-indent: -99999px;
+  width: 120px;
+  height: 100px;
+  margin: 0 40px 0px 40px;
+  background: url("../images/modelblue.svg") bottom no-repeat;
 }
 .cloud {
     margin-top: -30%;
@@ -101,7 +164,7 @@ h3 {
 .building3 {
     width: 120px;
     height: auto;
-    position: absolute;  
+    position: absolute;
     left:210px;
     bottom: 150px;
 }
@@ -111,7 +174,7 @@ h3 {
     height: auto;
     position: absolute;
     left: 593px;
-    bottom: 150px;  
+    bottom: 150px;
 }
 
 .building5 {
@@ -119,7 +182,7 @@ h3 {
     height: auto;
     position: absolute;
     bottom: 150px;
-    left: 950px; 
+    left: 950px;
 }
 
 .bridge1{
@@ -134,9 +197,9 @@ h3 {
 .water_bridge1 {
     width: 20%;
     height: auto;
-    left: 334px; 
+    left: 334px;
     bottom: 149px;
-    position: absolute; 
+    position: absolute;
     z-index: 2;
     opacity: 0.9;
 }
@@ -206,4 +269,55 @@ h3 {
 #drought {
 width:247px;
 height:266px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.75;
+}
+
+
+.img-circle:hover {
+  opacity: 1;
+/*  border: 2px solid black;
+*/}
+
+.margin-top-s {
+  margin-top: -50px;
+}
+
+.petition {
+  background-color:#3498db;
+  width: 150px;
+  height: 150px;
+}
+
+.donate {
+  background-color:#F44336;
+  width: 150px;
+  height: 150px;
+}
+
+.explore {
+  background-color:#8bc34a;
+  width: 150px;
+  height: 150px;
+}
+
+#chatbot-container h2 { 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    color: white;
+    padding-top: 10px;
+    font-size: 2.5rem;
+}
+
+#chatbot-container a {
+    text-decoration: none;
+}
+
+#chatbot-container {
+  text-align: center;
 }
