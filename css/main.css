@@ -39,14 +39,31 @@ h3 {
     color: #252445;
 }
 
+#d3 {
+    height: 650px;
+}
+
+#sink_year {
+    margin-top: -100px;
+}
+
 #bridge {
     height: 250px;
 }
 
+.legend {
+    font-family: "Open Sans", verdana, arial, sans-serif;
+    font-size: 1.2rem
+}
 .data-well {
     width: 70px;
     height: auto;
     margin: 0 40px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
 }
 
 .data-groundwater {
